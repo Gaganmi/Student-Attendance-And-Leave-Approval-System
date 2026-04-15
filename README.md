@@ -4,16 +4,16 @@
 
 ```
 attendance_system/
-├── app.py               ← Flask backend (all REST API routes)
-├── data_store.py        ← In-memory database + seed data
+├── app.py               
+├── data_store.py        
 ├── requirements.txt
 ├── templates/
-│   └── index.html       ← HTML shell (SPA entry point)
+│   └── index.html      
 └── static/
     ├── css/
-    │   └── style.css    ← All styles
+    │   └── style.css    
     └── js/
-        └── app.js       ← All frontend logic (SPA, calls Flask API)
+        └── app.js      
 ```
 
 ---
@@ -78,7 +78,7 @@ http://localhost:5000
 - Pending leave approvals (quick approve/reject)
 - Student attendance overview with progress bars
 
-### Admin — Manage Attendance  *(NEW — replaces Mark Attendance)*
+### Admin — Manage Attendance
 - View all attendance records in a filterable table
 - Filters: Student, Subject, Date range, Status
 - **Edit** any record's status inline (dropdown)
@@ -101,7 +101,7 @@ http://localhost:5000
 ### Admin — Reports & Analytics
 - 6-month attendance trend chart
 - Leave status breakdown
-- Leave type distribution (donut chart)
+- Leave type distribution 
 - At-risk student list (below 75%)
 - Export report buttons
 
